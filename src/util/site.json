@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Foundation",
-    "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "title": "Web Dev II class",
+    "titleTemplate": "A personal website",
+    "description": "Building a web by using Github and Netlify.",
+    "siteUrl": "https://",
+    "image": "/assets/bench-accounting-nvzvopqw0gc-unsplash.jpg",
+    "twitterUsername": ""
   },
   "ga": "UA-XXXXXXXXX-X"
 }
