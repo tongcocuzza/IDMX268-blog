@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Tong Cocuzza
 tagline: Web developer
-featuredImage: /assets/holly-stratton-xtha-47hjji-unsplash.jpg
+featuredImage: /assets/fullsizeoutput_5373.jpeg
 cta:
   ctaText: Know more
   ctaLink: /about
