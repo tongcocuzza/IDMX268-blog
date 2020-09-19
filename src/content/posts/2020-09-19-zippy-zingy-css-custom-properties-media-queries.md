@@ -22,29 +22,21 @@ From small-screen to wide-screen views, typography should be clear and pleasant 
 
 \---------------------------------------------------------------------------
 
+```
 : root {
-
-\-- font-size: 1rem;
-
+  -- font-size: 1rem;
 }
 
 @media (min-width: 1024px) {
-
-:root {
-
-\-- font-size: 2rem;
-
-}
-
+  :root {
+  -- font-size: 2rem;
+  }
 }
 
 h1 {
-
-Font-size: var (-- font-size);
-
+  font-size: var (-- font-size);
 }
-
-\---------------------------------------------------------------------------
+```
 
 In this example, if the device is more than 1,024 pixels wide, heading1 displayed on devices will be larger.
 
@@ -54,27 +46,21 @@ Color is a powerful tool to attract a user’s attention. It is very important t
 
 \---------------------------------------------------------------------------
 
+```
 : root {
-
-\-- body-background: #fff; /\* white \*/
-
+  -- body-background: #fff; /\* white \*/
 }
 
 @media (min-width: 1024px) {
-
-:root {
-
-\-- body-background: #ffff00; /\* yellow \*/
-
-}
-
+  :root {
+    -- body-background: #ffff00; /\* yellow \*/
+  }
 }
 
 body {
-
-background-color: var (-- body-background);
-
+  background-color: var (-- body-background);
 }
+```
 
 \---------------------------------------------------------------------------
 
