@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "Web Dev II class",
-    "titleTemplate": "A personal website",
+    "titleTemplate": "Web Dev II",
     "description": "Building a web by using Github and Netlify.",
-    "siteUrl": "https://",
-    "image": "/assets/bench-accounting-nvzvopqw0gc-unsplash.jpg",
+    "siteUrl": "https://idmx268-tongcocuzza.netlify.app/",
+    "image": "/assets/tclogo.png",
     "twitterUsername": ""
   },
   "ga": "UA-XXXXXXXXX-X"
