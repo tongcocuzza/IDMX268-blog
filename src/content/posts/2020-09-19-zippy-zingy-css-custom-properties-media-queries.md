@@ -20,8 +20,6 @@ The way to utilize CSS custom properties in responsive design is to use variable
 
 From small-screen to wide-screen views, typography should be clear and pleasant to read. CSS custom properties allows us to adjust it for a range of viewport sizes.
 
-\---------------------------------------------------------------------------
-
 ```
 :root {
   --font-size: 1rem;
@@ -44,8 +42,6 @@ In this example, if the device is more than 1,024 pixels wide, heading1 displaye
 
 Color is a powerful tool to attract a user’s attention. It is very important to choose the right colors. We can use CSS custom properties to keep the consistency of color values in our CSS.
 
-\---------------------------------------------------------------------------
-
 ```
 :root {
   --body-background: #fff; /* white */
@@ -61,8 +57,6 @@ body {
   background-color: var (--body-background);
 }
 ```
-
-\---------------------------------------------------------------------------
 
 In this example, if the device is more than 1,024 pixels wide, the background displayed on devices will be yellow.
 
