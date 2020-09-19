@@ -23,18 +23,18 @@ From small-screen to wide-screen views, typography should be clear and pleasant 
 \---------------------------------------------------------------------------
 
 ```
-: root {
-  -- font-size: 1rem;
+:root {
+  --font-size: 1rem;
 }
 
 @media (min-width: 1024px) {
   :root {
-  -- font-size: 2rem;
+    --font-size: 2rem;
   }
 }
 
 h1 {
-  font-size: var (-- font-size);
+  font-size: var (--font-size);
 }
 ```
 
@@ -47,18 +47,18 @@ Color is a powerful tool to attract a user’s attention. It is very important t
 \---------------------------------------------------------------------------
 
 ```
-: root {
-  -- body-background: #fff; /\* white \*/
+:root {
+  --body-background: #fff; /* white */
 }
 
 @media (min-width: 1024px) {
   :root {
-    -- body-background: #ffff00; /\* yellow \*/
+    --body-background: #ffff00; /* yellow */
   }
 }
 
 body {
-  background-color: var (-- body-background);
+  background-color: var (--body-background);
 }
 ```
 
