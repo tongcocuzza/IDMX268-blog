@@ -4,7 +4,7 @@ title: Can you easily read and understand these words?
 slug: /can-you-easily-read-and-understand-these-words
 date: 2020-09-26 19:35
 description: Accessible Web Typography
-featuredImage: /assets/commonfonts.png
+featuredImage: /assets/fonts.png
 ---
 
 
