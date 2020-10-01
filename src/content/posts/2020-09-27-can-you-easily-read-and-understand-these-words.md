@@ -4,10 +4,8 @@ title: Can you easily read and understand these words?
 slug: /can-you-easily-read-and-understand-these-words
 date: 2020-09-26 19:35
 description: Accessible Web Typography
-featuredImage: /assets/fonts.png
+featuredImage: /assets/commonfonts.png
 ---
-
-
 **Why is accessible web typography important?**
 
 “**Accessibility** can be viewed as the "ability to access" and benefit from some system or entity. The concept focuses on enabling access for people with disabilities, or special needs, or enabling access through the use of assistive technology; **however, research and development in accessibility brings benefits to everyone**” (Wikipedia).
@@ -20,7 +18,7 @@ In a nutshell, everyone will be able to access information and benefit from a cl
 
 Base font size is the font size that all other font sizes will be based upon. In general, 16 px is the browser default font size.
 
-Matej Latin said, “The best practice is to set the *font-size* on the *html* using % (or other relative unit), and then set all the other elements to either *em* or *rem* which will be relative to the body size.”
+In "5 Keys to Accessible Web Typography" Matej Latin said, “The best practice is to set the *font-size* on the *html* using % (or other relative unit), and then set all the other elements to either *em* or *rem* which will be relative to the body size.”
 
 For example,
 
