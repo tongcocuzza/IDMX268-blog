@@ -16,9 +16,9 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
-      resolve: 'gatsby-theme-blog',
+      resolve: "gatsby-theme-blog",
       options: {
-        preset: '@theme-ui/preset-deep',
+        preset: "@theme-ui/preset-deep",
       },
     },
     {
@@ -94,6 +94,6 @@ module.exports = {
         icon: `static/assets/tclogo.png`,
       },
     },
-    'gatsby-plugin-offline',
+    "gatsby-plugin-offline",
   ],
 }
