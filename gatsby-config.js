@@ -16,6 +16,12 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: "gatsby-theme-blog",
+      options: {
+        preset: "@theme-ui/preset-deep",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
