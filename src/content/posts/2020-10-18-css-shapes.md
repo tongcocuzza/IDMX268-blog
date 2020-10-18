@@ -1,7 +1,7 @@
 ---
 template: blog-post
-title: CSS Shapes
-slug: /css-shapes
+title: Using CSS Shapes
+slug: /using-css-shapes
 date: 2020-10-18 14:53
 description: CSS Shapes
 featuredImage: /assets/screenshot.png
