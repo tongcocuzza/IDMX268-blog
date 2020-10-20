@@ -8,7 +8,7 @@ featuredImage: /assets/screenshot.png
 ---
 In this article I want to introduce the CSS Shapes which I will use for flowing text content around shapes other than just the rectangle box shape layout. Since our computers or devices’ screens are rectangle, to make our web page’s appearance more interesting I believe that CSS Shapes is a great choice.
 
-**Basic Shapes Function**
+## Basic Shapes Function
 
 The `shape-outside` property is used to define a shape that text content will flow around. Typically, the shapes are circle, ellipse, or polygon.
 
@@ -29,7 +29,7 @@ shape-outside: inset();
 shape-outside: polygon();
 ```
 
-**How it works**
+## How it works
 
 Here I have an example that I built and used CSS. There are `h1` “Vanilla Cupcakes”, `img` - an image of a cupcake, and `p` - a paragraph.
 
@@ -58,7 +58,7 @@ img {
 
 ![](/assets/screenshot-1.png)
 
-**circle()**
+## circle()
 
 Next, I added one line of code `shape-outside: circle();` this is the way we tell the browser to run the text content in a circle not in a box and it wraps around that cupcake image in a circle shape.
 
@@ -73,19 +73,19 @@ img {
 
 ![](/assets/circle2.png)
 
-**ellipse()**
+## ellipse()
 
 This is an example of `shape-outside: ellipse();` look at the inside shape, it was changed to oval shape.
 
 ![](/assets/ellipse.png)
 
-**url()**
+## url()
 
 The `shape-outside: url(cupcake.png); `CSS declaration tells the browser to extract a shape from the image.
 
 ![](/assets/url.png)
 
-**inset()**
+## inset()
 
 The `inset()` allows us to provide values on how much we want the text content to overlap the shape. I added background-color because it’s easier to visualize.
 
@@ -113,7 +113,7 @@ img {
 
 ![](/assets/trbl.png)
 
-**polygon()**
+## polygon()
 
 The `polygon()` is flexible. It can be used to cut out shapes around images. The format is `polygon(x1 y1, x2 y2, x3 y3, …)` In this function each pair specifies the position of a point and a set of points make up a shape. In my example, I will make a triangle shape.
 
@@ -131,11 +131,11 @@ The first point is `0px 0px`, the top left point. The second point is `532px 446
 
 ![](/assets/polygon.png)
 
-**Wrapping Up**
+## Wrapping Up
 
 A webpage design doesn’t have to be in a box layout. We can think **out of the rectangle box** by using CSS Shapes to design irregularly shaped layouts. It will have a great effect to the user experience.
 
-**Resource:**
+## Resource:
 
 * [Obliterate Boxiness with CSS Shapes](https://www.youtube.com/watch?v=pOB75oTNhw0)
 * [Getting Started with CSS Shapes](<-	https://www.html5rocks.com/en/tutorials/shapes/getting-started/#toc-polygon>)
