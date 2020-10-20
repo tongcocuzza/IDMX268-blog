@@ -6,4 +6,4 @@ date: 2020-09-08 14:48
 description: My first blog
 featuredImage: /assets/niclas-illg-prbnnbxvnh4-unsplash.jpg
 ---
-**Hello Friends**
+# Hello Friends
