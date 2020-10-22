@@ -16,20 +16,6 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve:"@weknow/gatsby-remark-codepen",
-            options: {
-              theme: "dark",
-              height: 400
-            }
-          }
-        ]
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
@@ -76,6 +62,13 @@ module.exports = {
               // of HTML entities and their escape value IE: { '}': '&#123;' }
               escapeEntities: {},
             },
+          },
+          {
+            resolve:"@weknow/gatsby-remark-codepen",
+            options: {
+              theme: "dark",
+              height: 400
+            }
           },
         ],
       },
