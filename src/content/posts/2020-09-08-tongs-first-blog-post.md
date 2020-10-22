@@ -7,3 +7,7 @@ description: My first blog
 featuredImage: /assets/niclas-illg-prbnnbxvnh4-unsplash.jpg
 ---
 ## Hello Friends
+
+**Try code pen**
+
+https://codepen.io/tongcocuzza/details/yLJaPvM
