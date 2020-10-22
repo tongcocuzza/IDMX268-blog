@@ -10,4 +10,4 @@ featuredImage: /assets/niclas-illg-prbnnbxvnh4-unsplash.jpg
 
 **Try code pen**
 
-https://codepen.io/tongcocuzza/details/yLJaPvM
+https://codepen.io/tongcocuzza/pen/yLJYKdW
