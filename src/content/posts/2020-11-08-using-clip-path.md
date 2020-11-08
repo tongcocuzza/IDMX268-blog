@@ -106,7 +106,7 @@ Next, to make a contrasting color for the overlapped text and it will be stacked
 
 ## The bottom
 
-At the end, I created SVG path in figma.com and added it to HTML by using the <svg> element. Then, I applied the <image> element and now my image is part of the SVG. The image shows through the rectangles that I made.
+At the end, I created SVG path in figma.com and added it to HTML by using the `<svg> `element. Then, I applied the `<image>` element and now my image is part of the SVG. The image shows through the rectangles that I made.
 
 ![](/assets/screenshot4.png)
 
